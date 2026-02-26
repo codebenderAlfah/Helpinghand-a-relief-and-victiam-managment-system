@@ -2,20 +2,26 @@
 <?php session_start(); ?>
   
 <!DOCTYPE html>
-<style>
-.logo {
-    width: 265px;
-    margin: 60px auto;
-}
-   /* .input-group{
-        width: 200px;
-        padding-left:  640px;
-    }
-    #btn{
-        height: 20px;
-    }*/
-</style>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Helping Hand - Victim Search</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+	.logo {
+	    width: 265px;
+	    margin: 60px auto;
+	}
+	.vsearch-label {
+		font-size: 1.5em;
+		font-weight: bold;
+		display: block;
+		margin-bottom: 10px;
+	}
+	</style>
+</head>
+<body>
+
  <div class="title"><center>
     <?php 
         if(isset($_SESSION['logged'])) {          
@@ -26,33 +32,27 @@
     ?>
  </center></div>     
      
-<head>
-	<title>helping hand</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-
 <div class="title">
 	<center>
-    <a href="http://localhost/helpinghand/index.php">
-  <img src="hh.png"  style="width:150px;height:150px;border:0">
+    <a href="index.php">
+  <img src="hh.png" alt="Helping Hand Home" style="width:150px;height:150px;border:0">
 </a>
         </center>
     </div>       
 <div class="taskmenu">
 	<ul>
-	<li><a href="http://localhost/helpinghand/team.php">Team</a></li>
-	<li><a href="http://localhost/helpinghand/crisis.php">Crisis</a></li>
-	<li><a href="http://localhost/helpinghand/counters.php">Relief count</a></li>
-    <li><a href="http://localhost/helpinghand/vsearch.php">Victim Search</a></li>
+	<li><a href="team.php">Team</a></li>
+	<li><a href="crisis.php">Crisis</a></li>
+	<li><a href="counters.php">Relief count</a></li>
+    <li><a href="vsearch.php">Victim Search</a></li>
 	</ul>
 </div>
      <form method="post" action="vresult.php">
     <div class="input-group">
-        <label><h1>Victim Name</h1></label>
-	   <input type="text" name="name">
-        <label><h1>Area</h1></label>
-	   <input type="text" name="area">
+        <label for="name" class="vsearch-label">Victim Name</label>
+	   <input type="text" name="name" id="name" required>
+        <label for="area" class="vsearch-label">Area</label>
+	   <input type="text" name="area" id="area" required>
 	</div>
 
 	<div class="input-group" id="btn"> <button type="submit" name="Submit" class="btn">Search</button> </div>  
