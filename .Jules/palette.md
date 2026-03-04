@@ -1,0 +1,3 @@
+## 2025-05-15 - Visual Accessibility and CSS Shorthand
+**Learning:** Legacy code in this project used invalid CSS syntax for `border-radius` (e.g., `border-radius: 5px solid gray;`), which caused browsers to ignore the property entirely. In this specific case, it also seemed to prevent standard borders from rendering correctly in some contexts, making input fields nearly invisible and significantly hindering accessibility for all users.
+**Action:** When improving form accessibility, always verify that interactive elements have clear visual boundaries. Separate `border` and `border-radius` into distinct, valid properties to ensure consistent rendering and visual affordance.
