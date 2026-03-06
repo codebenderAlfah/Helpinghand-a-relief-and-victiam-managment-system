@@ -49,10 +49,10 @@
 </div>
      <form method="post" action="vresult.php">
     <div class="input-group">
-        <label><h1>Victim Name</h1></label>
-	   <input type="text" name="name">
-        <label><h1>Area</h1></label>
-	   <input type="text" name="area">
+        <h1><label for="name">Victim Name</label></h1>
+	   <input type="text" name="name" id="name" required>
+        <h1><label for="area">Area</label></h1>
+	   <input type="text" name="area" id="area" required>
 	</div>
 
 	<div class="input-group" id="btn"> <button type="submit" name="Submit" class="btn">Search</button> </div>  
