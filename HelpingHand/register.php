@@ -1,7 +1,8 @@
 <?php include('server.php');?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<title>Helping Hand</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -13,33 +14,33 @@
 <form method="post" action="register.php">
 <?php include('errors.php');?>
 	<div class="input-group">
-		<label>Username</label>
-		<input type="text" name="username">
+		<label for="username">Username</label>
+		<input type="text" name="username" id="username" required autocomplete="username">
 	</div>
 	
 	<div class="input-group">
-		<label>First Name</label>
-		<input type="text" name="first_name">
+		<label for="first_name">First Name</label>
+		<input type="text" name="first_name" id="first_name" required autocomplete="given-name">
 	</div>
 	
 	<div class="input-group">
-		<label>Last Name</label>
-		<input type="text" name="last_name">
+		<label for="last_name">Last Name</label>
+		<input type="text" name="last_name" id="last_name" required autocomplete="family-name">
 	</div>
 	
 	<div class="input-group">
-		<label>Email</label>
-		<input type="text" name="email">
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" required autocomplete="email">
 	</div>
 	
 	<div class="input-group">
-		<label>Password</label>
-		<input type="password" name="password_1">
+		<label for="password_1">Password</label>
+		<input type="password" name="password_1" id="password_1" required autocomplete="new-password">
 	</div>
 	
 	<div class="input-group">
-		<label>Confirm Password</label>
-		<input type="password" name="password_2">
+		<label for="password_2">Confirm Password</label>
+		<input type="password" name="password_2" id="password_2" required autocomplete="new-password">
 	</div>
 	
 	<div>
