@@ -1,0 +1,3 @@
+## 2026-03-08 - [Legacy PHP Accessibility & Verification]
+**Learning:** Legacy PHP applications often lack semantic HTML (label-input associations, modern input types) and accessible focus indicators. Testing these changes in an environment with a missing database can be achieved by temporarily patching the database connection (e.g., setting `$db = null`) and using a local PHP server with Playwright for verification.
+**Action:** Always verify label-input connections and focus states in legacy forms. Use `php -S` and targeted Playwright scripts for frontend verification when traditional test suites are absent.
