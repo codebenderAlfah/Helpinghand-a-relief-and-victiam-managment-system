@@ -102,7 +102,12 @@ form {
 	width: 93%;
 	padding: 5px 10px;
 	font-size: 16px;
-	border-radius: 5px solid gray;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.input-group input:focus-visible {
+	outline: 2px solid #5F9EA0;
+	outline-offset: 2px;
 }
 .btn{
 	padding: 10px;
@@ -111,6 +116,11 @@ form {
 	background: #5F9EA0;
 	border: none;
 	border-radius: 5px;
+	cursor: pointer;
+}
+.btn:focus-visible {
+	outline: 2px solid #5F9EA0;
+	outline-offset: 2px;
 }
 .error{
 	width: 92%;
