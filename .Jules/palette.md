@@ -1,0 +1,3 @@
+## 2026-03-08 - [Accessibility & Form Semantics in Legacy PHP]
+**Learning:** Legacy PHP forms often have poor document structure (missing <html>, <head>, or <body> tags) and mix headers with labels (e.g., <h1> inside <label>), which breaks screen reader navigation. Additionally, invalid CSS (like // comments or incorrect property values) can cause silent rendering failures.
+**Action:** Always ensure a full HTML5 boilerplate (<!DOCTYPE html>, <html lang="en">, <meta charset="UTF-8">). Decouple labels from headers and use proper 'for'/'id' associations. Validate CSS syntax and convert non-standard comments to block comments.
