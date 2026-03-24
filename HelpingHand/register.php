@@ -13,33 +13,33 @@
 <form method="post" action="register.php">
 <?php include('errors.php');?>
 	<div class="input-group">
-		<label>Username</label>
-		<input type="text" name="username">
+		<label for="username">Username</label>
+		<input type="text" name="username" id="username">
 	</div>
 	
 	<div class="input-group">
-		<label>First Name</label>
-		<input type="text" name="first_name">
+		<label for="first_name">First Name</label>
+		<input type="text" name="first_name" id="first_name">
 	</div>
 	
 	<div class="input-group">
-		<label>Last Name</label>
-		<input type="text" name="last_name">
+		<label for="last_name">Last Name</label>
+		<input type="text" name="last_name" id="last_name">
 	</div>
 	
 	<div class="input-group">
-		<label>Email</label>
-		<input type="text" name="email">
+		<label for="email">Email</label>
+		<input type="text" name="email" id="email">
 	</div>
 	
 	<div class="input-group">
-		<label>Password</label>
-		<input type="password" name="password_1">
+		<label for="password_1">Password</label>
+		<input type="password" name="password_1" id="password_1">
 	</div>
 	
 	<div class="input-group">
-		<label>Confirm Password</label>
-		<input type="password" name="password_2">
+		<label for="password_2">Confirm Password</label>
+		<input type="password" name="password_2" id="password_2">
 	</div>
 	
 	<div>
