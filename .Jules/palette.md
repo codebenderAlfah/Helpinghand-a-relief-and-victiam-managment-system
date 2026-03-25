@@ -1,0 +1,3 @@
+## 2026-03-08 - Form Accessibility and Browser Interoperability
+**Learning:** Legacy PHP forms often omit programmatic label-input associations and HTML5 validation, which hinders both accessibility (screen readers) and modern browser features like password managers (autocomplete) and native client-side validation.
+**Action:** When working with legacy forms, always implement unique 'id' attributes for inputs matched with 'label for', use specific HTML5 types (e.g., 'type="email"'), and include 'autocomplete' tokens ('username', 'current-password', 'new-password') to improve UX and accessibility simultaneously.
