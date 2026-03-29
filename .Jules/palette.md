@@ -1,0 +1,3 @@
+## 2026-03-08 - [CSS and Accessibility in Legacy PHP Forms]
+**Learning:** Legacy code in this project contains invalid CSS syntax, specifically using 'border-radius' for border styles (e.g., 'border-radius: 5px solid gray;'). Additionally, standard PHP form patterns here lacked basic accessibility features like 'for'/'id' label associations and modern HTML5 input types.
+**Action:** Always verify 'border-radius' and 'border' properties are separated. Proactively upgrade 'type="text"' to 'type="email"' or 'type="password"' and add 'autocomplete' attributes to improve the micro-UX of legacy forms.
