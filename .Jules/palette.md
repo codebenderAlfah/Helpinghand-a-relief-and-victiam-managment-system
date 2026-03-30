@@ -1,0 +1,3 @@
+## 2026-03-08 - [CSS/Accessibility] Labeling and Border Syntax in Legacy PHP
+**Learning:** Legacy CSS in this project may contain invalid syntax where `border-radius` is used for defining border styles (e.g., `border-radius: 5px solid gray;`). Additionally, form inputs often lack programmatic label associations, placeholders, and autocomplete hints, which are critical for accessibility and password manager integration.
+**Action:** When modifying legacy forms, verify CSS border properties for correctness (separate `border` and `border-radius`) and ensure all inputs have corresponding `<label>` elements with `for` attributes, appropriate `placeholder` text, and `autocomplete` values.
