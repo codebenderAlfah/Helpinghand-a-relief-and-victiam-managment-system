@@ -39,7 +39,7 @@ if (isset($_POST['register'])) {
     if (count($errors)== 0) {
 			$sql = "INSERT INTO users (username, password, first_name, last_name, email) VALUES ('$username', '$password_1', '$first_name', '$last_name', '$email')";
 			mysqli_query($db,$sql);
-			header('Location: http://localhost/helpinghand/index.php'); }
+			header('Location: index.php'); }
 	}
 
 
@@ -61,7 +61,7 @@ if (isset($_POST['login'])) {
 					$_SESSION['username'] = $row['username']; 
 					$_SESSION['logged']   = TRUE; 
 					
-					header('Location: http://localhost/helpinghand/index.php'); 
+					header('Location: index.php');
 					exit; }
                 
                 else	array_push($errors, "Wrong username/password");	}
@@ -85,7 +85,7 @@ if (isset($_POST['login'])) {
 			if (count($errors)== 0) {
 				$sql = "INSERT INTO disaster (category, disaster_date, companyid, killed_people, affected_people, affected_zone) VALUES ('$category', '$disaster_date', '$companyid', '$killed_people', '$affected_people', '$affected_zone')";
 				mysqli_query($db, $sql);
-				header('Location: http://localhost/helpinghand/crisis.php'); }
+				header('Location: crisis.php'); }
 		}
 
 if (isset($_POST['victimEntry'])) {
@@ -108,6 +108,6 @@ if (isset($_POST['victimEntry'])) {
 			if (count($errors) == 0) {
 				$sql = "INSERT INTO victim (disasterid, name, family_number, birth_date, age, gender, bloodgroup) VALUES ('$disasterid', '$name', '$family_number', '$family_number', '$age', '$gender', '$bloodgroup')";
 				mysqli_query($db,$sql);
-				header('Location: http://localhost/helpinghand/index.php'); }
+				header('Location: index.php'); }
 		}
  ?>

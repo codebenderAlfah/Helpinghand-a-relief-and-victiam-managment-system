@@ -27,7 +27,7 @@
 
 <div class="title">
 	<center>
-    <a href="http://localhost/helpinghand/index.php">
+    <a href="index.php">
   <img src="hh.png"  style="width:150px;height:150px;border:0">
 </a>
         </center>
@@ -36,10 +36,10 @@
     
 <div class="taskmenu">
 	<ul>
-	<li><a href="http://localhost/helpinghand/team.php">Team</a></li>
-	<li><a href="http://localhost/helpinghand/crisis.php">Crisis</a></li>
-	<li><a href="http://localhost/helpinghand/counters.php">Relife count</a></li>
-    <li><a href="http://localhost/helpinghand/vsearch.php">Victim Search</a></li>
+	<li><a href="team.php">Team</a></li>
+	<li><a href="crisis.php">Crisis</a></li>
+	<li><a href="counters.php">Relife count</a></li>
+    <li><a href="vsearch.php">Victim Search</a></li>
 	</ul>
 </div>
 
