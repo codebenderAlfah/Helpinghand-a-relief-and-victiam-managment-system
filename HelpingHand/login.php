@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Helping Hand</title>
-	<link rel="stylesheet" type="text/css" href="style.css" color= white>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
@@ -11,13 +11,13 @@
 <div class="header"> <h2>Log In</h2></div>
 <form method="post" action="login.php">
 	<div class="input-group">
-	   <label>Username</label>
-        <input type="text" name="username">
+	   <label for="username">Username</label>
+        <input type="text" name="username" id="username" required autocomplete="username">
 	</div>
 	
 	<div class="input-group">
-	   <label>Password</label>
-	   <input type="password" name="password_1">
+	   <label for="password_1">Password</label>
+	   <input type="password" name="password_1" id="password_1" required autocomplete="current-password">
 	</div>
 
 	<div class="input-group"> <button type="submit" name="login" class="btn">Log In</button> </div>  
