@@ -1,0 +1,3 @@
+## 2026-03-24 - [CSS Syntax and Accessibility in Legacy PHP]
+**Learning:** Legacy PHP/CSS codebases often contain non-standard syntax like `//` for comments in CSS and misuse of properties (e.g., `border-radius` used with border shorthand values). Additionally, basic form accessibility (label-input association) is frequently overlooked.
+**Action:** Always audit legacy CSS for valid comment types and property usage. Implement `:focus-visible` to provide modern keyboard navigation feedback without affecting pointer users. Ensure every form input has a unique ID and a corresponding label with a `for` attribute.
