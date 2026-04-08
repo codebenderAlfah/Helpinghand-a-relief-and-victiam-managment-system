@@ -11,7 +11,7 @@ body{
 	width: 100%;
 	font-size: 200%;
 	color: white;
-	border: 1 px solid;
+	border: 1px solid;
 }
 .header{
 	width: 30%;
@@ -42,13 +42,13 @@ ul{
 
 a{
 	border-radius: 10px 10px 10px 10px;
-	font-style: arial;
+	font-family: Arial, sans-serif;
 	font-size: 30px;
 }
 
 ul li
 {
-	//background: white;
+	/* background: white; */
 	display: inline-block;
 	width: 17%;
 	line-height: 40px;
@@ -102,7 +102,8 @@ form {
 	width: 93%;
 	padding: 5px 10px;
 	font-size: 16px;
-	border-radius: 5px solid gray;
+	border: 1px solid gray;
+	border-radius: 5px;
 }
 .btn{
 	padding: 10px;
@@ -111,6 +112,16 @@ form {
 	background: #5F9EA0;
 	border: none;
 	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: #4e8385;
+}
+
+:focus-visible {
+	outline: 3px solid #5F9EA0;
+	outline-offset: 2px;
 }
 .error{
 	width: 92%;

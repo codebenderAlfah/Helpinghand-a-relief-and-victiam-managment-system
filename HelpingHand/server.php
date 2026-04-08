@@ -20,7 +20,11 @@
 	$bloodgroup      = "";
 
 
-$db = mysqli_connect ('localhost', 'root', '', 'helpinghand');
+try {
+	$db = mysqli_connect ('localhost', 'root', '', 'helpinghand');
+} catch (mysqli_sql_exception $e) {
+	$db = null;
+}
 
 
 if (isset($_POST['register'])) {
