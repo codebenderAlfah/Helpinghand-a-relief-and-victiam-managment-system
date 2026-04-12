@@ -1,0 +1,3 @@
+## 2026-04-18 - Standardizing Form Accessibility and Keyboard Navigation
+**Learning:** Legacy PHP forms in this repository often lack basic accessibility features such as label-input associations and modern semantic types. Additionally, invalid CSS syntax in the global stylesheet was causing subtle visual bugs (missing borders) and poor keyboard navigation support.
+**Action:** Always verify label-input associations with `id`/`for` attributes and prioritize `:focus-visible` styles with brand-consistent colors (CadetBlue) to ensure a high-contrast, accessible interactive experience across the application. Correcting legacy CSS syntax (shorthand errors and single-line comments) is a prerequisite for reliable UI rendering.
