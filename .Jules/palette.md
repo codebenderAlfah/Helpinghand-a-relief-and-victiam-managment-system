@@ -1,0 +1,3 @@
+## 2026-04-14 - Standardizing Legacy PHP Forms and Focus Indicators
+**Learning:** Legacy PHP forms in this repository frequently lack programmatic label-input associations and semantic HTML5 attributes (like autocomplete). Additionally, invalid CSS property usage (e.g., using 'border-radius' for 'border') can prevent proper styling. Implementing ':focus-visible' with a brand-consistent high-contrast color (CadetBlue) significantly improves keyboard navigation without affecting mouse users.
+**Action:** Always audit form inputs for 'id'/'for' parity and semantic 'autocomplete' values. Correct invalid CSS shorthand properties and use ':focus-visible' to provide high-visibility focus states.
