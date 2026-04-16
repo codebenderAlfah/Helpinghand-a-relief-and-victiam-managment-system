@@ -1,8 +1,9 @@
 <?php include('server.php');?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Helping Hand</title>
+	<meta charset="UTF-8">
+	<title>Helping Hand - Register</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -14,32 +15,32 @@
 <?php include('errors.php');?>
 	<div class="input-group">
 		<label for="username">Username</label>
-		<input type="text" id="username" name="username" required autofocus>
+		<input type="text" name="username" id="username" required>
 	</div>
 	
 	<div class="input-group">
 		<label for="first_name">First Name</label>
-		<input type="text" id="first_name" name="first_name" required>
+		<input type="text" name="first_name" id="first_name" required>
 	</div>
 	
 	<div class="input-group">
 		<label for="last_name">Last Name</label>
-		<input type="text" id="last_name" name="last_name" required>
+		<input type="text" name="last_name" id="last_name" required>
 	</div>
 	
 	<div class="input-group">
 		<label for="email">Email</label>
-		<input type="email" id="email" name="email" required>
+		<input type="email" name="email" id="email" required>
 	</div>
 	
 	<div class="input-group">
 		<label for="password_1">Password</label>
-		<input type="password" id="password_1" name="password_1" required>
+		<input type="password" name="password_1" id="password_1" required>
 	</div>
 	
 	<div class="input-group">
 		<label for="password_2">Confirm Password</label>
-		<input type="password" id="password_2" name="password_2" required>
+		<input type="password" name="password_2" id="password_2" required>
 	</div>
 	
 	<div>

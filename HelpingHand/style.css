@@ -104,13 +104,6 @@ form {
 	font-size: 16px;
 	border: 1px solid gray;
 	border-radius: 5px;
-	transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-.input-group input:focus {
-	border-color: #5F9EA0;
-	outline: none;
-	box-shadow: 0 0 5px rgba(95, 158, 160, 0.5);
 }
 
 .btn{
