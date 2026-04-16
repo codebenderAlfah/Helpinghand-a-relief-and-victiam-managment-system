@@ -1,9 +1,10 @@
 <?php include('server.php');?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Helping Hand</title>
-	<link rel="stylesheet" type="text/css" href="style.css" color= white>
+	<meta charset="UTF-8">
+	<title>Helping Hand - Log In</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 

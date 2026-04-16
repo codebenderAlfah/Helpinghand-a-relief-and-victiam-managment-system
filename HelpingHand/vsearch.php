@@ -2,20 +2,26 @@
 <?php session_start(); ?>
   
 <!DOCTYPE html>
-<style>
-.logo {
-    width: 265px;
-    margin: 60px auto;
-}
-   /* .input-group{
-        width: 200px;
-        padding-left:  640px;
-    }
-    #btn{
-        height: 20px;
-    }*/
-</style>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Helping Hand - Victim Search</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+	.logo {
+	    width: 265px;
+	    margin: 60px auto;
+	}
+	.vsearch-label {
+		font-size: 1.5em;
+		font-weight: bold;
+		display: block;
+		margin-bottom: 10px;
+	}
+	</style>
+</head>
+<body>
+
  <div class="title"><center>
     <?php 
         if(isset($_SESSION['logged'])) {          
@@ -26,12 +32,6 @@
     ?>
  </center></div>     
      
-<head>
-	<title>helping hand</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-
 <div class="title">
 	<center>
     <a href="index.php">

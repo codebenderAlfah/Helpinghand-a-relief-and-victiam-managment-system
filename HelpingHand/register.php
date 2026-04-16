@@ -1,8 +1,9 @@
 <?php include('server.php');?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Helping Hand</title>
+	<meta charset="UTF-8">
+	<title>Helping Hand - Register</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
