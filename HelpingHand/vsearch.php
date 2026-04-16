@@ -35,7 +35,7 @@
 <div class="title">
 	<center>
     <a href="index.php">
-  <img src="hh.png" alt="Helping Hand Home" style="width:150px;height:150px;border:0">
+  <img src="hh.png" alt="Helping Hand Logo" style="width:150px;height:150px;border:0">
 </a>
         </center>
     </div>       
@@ -49,9 +49,9 @@
 </div>
      <form method="post" action="vresult.php">
     <div class="input-group">
-        <label for="name" class="vsearch-label">Victim Name</label>
+        <label for="name">Victim Name</label>
 	   <input type="text" name="name" id="name" required>
-        <label for="area" class="vsearch-label">Area</label>
+        <label for="area">Area</label>
 	   <input type="text" name="area" id="area" required>
 	</div>
 
