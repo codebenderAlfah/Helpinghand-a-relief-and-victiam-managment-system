@@ -12,12 +12,12 @@
 <form method="post" action="login.php">
 	<div class="input-group">
 	   <label for="username">Username</label>
-        <input type="text" name="username" id="username" required>
+        <input type="text" id="username" name="username" required autofocus>
 	</div>
 	
 	<div class="input-group">
 	   <label for="password_1">Password</label>
-	   <input type="password" name="password_1" id="password_1" required>
+	   <input type="password" id="password_1" name="password_1" required>
 	</div>
 
 	<div class="input-group"> <button type="submit" name="login" class="btn">Log In</button> </div>  

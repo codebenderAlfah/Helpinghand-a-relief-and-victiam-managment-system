@@ -27,7 +27,7 @@
 <div class="title">
 	<center>
     <a href="index.php">
-  <img src="hh.png" alt="Helping Hand Logo" style="width:150px;height:150px;border:0">
+  <img src="hh.png" alt="Helping Hand Home" style="width:150px;height:150px;border:0">
 </a>
         </center>
     </div>
