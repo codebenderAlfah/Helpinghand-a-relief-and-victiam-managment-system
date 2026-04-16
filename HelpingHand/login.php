@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Helping Hand - Log In</title>
+	<title>Helping Hand</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
